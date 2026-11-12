@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Catálogo - Seleção Brasileira</title>
+
+ 
+
+  <!-- ===== ESTILOS INTERNOS ===== -->
+
+  <style>
+
+    /* Corpo da página */
+
+    body {
+
+      background-color: rgb(171, 235, 171);
+
+      text-align: center;
+
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+ 
+
+    /* Título principal */
+
+    h1 {
+
+      color: rgb(0, 100, 0);
+
+    }
+
+ 
+
+    /* Imagem padrão (logo) */
+
+    img {
+
+      width: 300px;
+
+      border: 3px solid rgb(0, 80, 0);
+
+      border-radius: 18px;
+
+    }
+
+ 
+
+    /* Parágrafo padrão */
+
+    p {
+
+      font-size: 18px;
+
+      color: #000000;
+
+    }
+
+ 
+
+    /* Classe de destaque amarelo (cor da camisa) */
+
+    .amarelo {
+
+      color: rgb(255, 187, 0);
+
+      font-weight: bold;
+
+    }
+
+ 
+
+    /* Classe de destaque verde */
+
+    .verde {
+
+      color: rgb(0, 150, 0);
+
+      font-weight: bold;
+
+    }
+
+ 
+
+    /* Classe de destaque azul (cor do short) */
+
+    .azul {
+
+      color: rgb(4, 0, 255);
+
+      font-weight: bold;
+
+    }
+
+ 
+
+    /* Foto do jogador – tamanho menor para caber na tabela */
+
+    .jogadorimg {
+
+      width: 180px;
+
+      border: 3px solid rgb(255, 187, 0);
+
+      border-radius: 18px;
+
+    }
+
+ 
+
+    /* Logo da seleção */
+
+    .logoimg {
+
+      width: 200px;
+
+      border: 3px solid rgb(0, 100, 0);
+
+      border-radius: 18px;
+
+    }
+
+ 
+
+    /* Grid de duas colunas (mantido do original) */
+
+    .container-grid {
+
+      display: grid;
+
+      grid-template-columns: 1fr 1fr;
+
+      gap: 20px;
+
+    }
+
+ 
+
+    /* Tabela centralizada */
+
+    table {
+
+      margin: 0 auto;
+
+      border-collapse: collapse;
+
+    }
+
+ 
+
+    /* Células da tabela */
+
+    table th,
+
+    table td {
+
+      padding: 15px;
+
+      text-align: center;
+
+      vertical-align: middle;
+
+    }
+
+ 
+
+    /* Cabeçalho da tabela */
+
+    table th {
+
+      background-color: rgb(0, 100, 0);
+
+      color: rgb(255, 187, 0);
+
+    }
+
+ 
+
+    /* Linhas alternadas */
+
+    table tr:nth-child(even) {
+
+      background-color: rgba(255, 255, 255, 0.45);
+
+    }
+
+ 
+
+    table tr:nth-child(odd) {
+
+      background-color: rgba(255, 255, 255, 0.20);
+
+    }
+
+ 
+
+    /* Rodapé */
+
+    footer {
+
+      margin-top: 30px;
+
+    }
+
+  </style>
+
+</head>
+
+ 
+
+<body>
+
+ 
+
+  <!-- ===== CABEÇALHO ===== -->
+
+  <h1>Seleção Brasileira</h1>
+
+  <h2>Brasil <span class="verde">3</span> x <span class="azul">0</span> Escócia — Copa do Mundo 2026</h2>
+
+  <br>
+
+ 
+
+  <!-- Logo da seleção -->
+
+  <img class="logoimg" src="download-removebg-preview.png" alt="Logo da Seleção Brasileira">
+
+ 
+
+  <br><br>
+
+ 
+
+  <!-- ===== TABELA DE JOGADORES TITULARES ===== -->
+
+  <table border="1" cellpadding="15" cellspacing="0">
+
+ 
+
+    <!-- Cabeçalho da tabela -->
+
+    <tr>
+
+      <th><h2>Foto</h2></th>
+
+      <th><h2>Nome do Jogador</h2></th>
+
+      <th><h2>Posição</h2></th>
+
+    </tr>
+
+ 
+
+    <!-- 1. Goleiro -->
+
+    <tr>
+
+      <td><img class="jogadorimg" src="Alisson.png" alt="Alisson"></td>
+
+      <td><b>Alisson</b></td>
+
+      <td>GOL</td>
+
+    </tr>
+
+ 
+
+    <!-- 2. Lateral Direito -->
+
+    <tr>
+
+      <td><img class="jogadorimg" src="Danilo.png" alt="Danilo"></td>
+
+      <td><b>Danilo</b></td>
+
+      <td>LD</td>
+
+    </tr>
+
+ 
+
+    <!-- 3. Zagueiro -->
+
+    <tr>
+
+      <td><img class="jogadorimg" src="gabrielm.jpg" alt="Gabriel Magalhães"></td>
+
+      <td><b>Gabriel Magalhães</b></td>
+
+      <td>ZAG</td>
+
+    </tr>
+
+ 
+
+    <!-- 4. Zagueiro -->
+
+    <tr>
+
+      <td><img class="jogadorimg" src="marqui.png" alt="Marquinhos"></td>
+
+      <td><b>Marquinhos</b></td>
+
+      <td>ZAG</td>
+
+    </tr>
+
+ 
+
+    <!-- 5. Lateral Esquerdo -->
+
+    <tr>
+
+      <td><img class="jogadorimg" src="Douglas.png" alt="Douglas Santos"></td>
+
+      <td><b>Douglas Santos</b></td>
+
+      <td>LE</td>
+
+    </tr>
+
+ 
+
+    <!-- 6. Volante -->
+
+    <tr>
+
+      <td><img class="jogadorimg" src="case.png" alt="Casemiro"></td>
+
+      <td><b>Casemiro</b></td>
+
+      <td>VOL</td>
+
+    </tr>
+
+ 
+
+    <!-- 7. Meia Central -->
+
+    <tr>
+
+      <td><img class="jogadorimg" src="brunoguim.png" alt="Bruno Guimarães"></td>
+
+      <td><b>Bruno Guimarães</b></td>
+
+      <td>MC</td>
+
+    </tr>
+
+ 
+
+    <!-- 8. Meia -->
+
+    <tr>
+
+      <td><img class="jogadorimg" src="lucasp.png" alt="Lucas Paquetá"></td>
+
+      <td><b>Lucas Paquetá</b></td>
+
+      <td>MEI</td>
+
+    </tr>
+
+ 
+
+    <!-- 9. Ponta Direita -->
+
+    <tr>
+
+      <td><img class="jogadorimg" src="rayan.png" alt="Rayan"></td>
+
+      <td><b>Rayan</b></td>
+
+      <td>PD</td>
+
+    </tr>
+
+ 
+
+    <!-- 10. Atacante -->
+
+    <tr>
+
+      <td><img class="jogadorimg" src="Matheus.png" alt="Matheus Cunha"></td>
+
+      <td><b>Matheus Cunha</b></td>
+
+      <td>ATA</td>
+
+    </tr>
+
+ 
+
+    <!-- 11. Ponta Esquerda -->
+
+    <tr>
+
+      <td><img class="jogadorimg" src="vini.png" alt="Vinícius Júnior"></td>
+
+      <td><b>Vinícius Júnior</b></td>
+
+      <td>PE</td>
+
+    </tr>
+
+ 
+
+  </table>
+
+ 
+
+  <br><br>
+
+ 
+
+  <!-- ===== RODAPÉ ===== -->
+
+  <footer>
+
+    <h5>© 2026 Dev: Enhazo</h5>
+
+  </footer>
+
+ 
+
+</body>
+
+</html>
